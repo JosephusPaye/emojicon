@@ -1,6 +1,6 @@
 {
   "name": "emojicon",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Use any emoji as favicon",
   "main": "dist/emojicon.js",
   "author": "Josephus Paye II",
