@@ -19,7 +19,7 @@ Emojicon is tiny and has no dependencies - weighing only 939 bytes (603 bytes g-
 
 ## Design
 
-Emojicon works as follows:
+Emojicon has been designed to work as follows:
 
 - Renders the given emoji to a 32x32 transparent canvas using the platform's emoji font
 - Converts the canvas image to a data URL using [`canvas.toDataURL('image/png')`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL)
@@ -33,7 +33,7 @@ npm install emojicon --save
 
 ## Usage
 
-Before using Emojicon, ensure that your favicon `<link>` element in the document head has an id of `emojicon`, or pass `linkId` with the actual id when calling `set()` or `render()`.
+Before using Emojicon, ensure that your favicon `<link>` element in the document head has an id of `emojicon`, or pass `linkId` with the actual id when calling [`emojicon.set()`](#emojiconsetemoji-options).
 
 ```html
 <link rel="shortcut icon" id="emojicon" href="/favicon.ico" />
@@ -138,6 +138,10 @@ Render the given emoji to a data URL.
   - `canvas`: Object: a custom canvas implementation, must be compatible with the [standard canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 
 Returns a data URL string that can be used anywhere you would use an image URL.
+
+## To-Do
+
+- [ ] Add TypeScript declarations (contributions welcome)
 
 ## Licence
 
