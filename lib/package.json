@@ -1,0 +1,16 @@
+{
+  "name": "emojicon",
+  "version": "0.1.0",
+  "description": "Use any emoji as favicon",
+  "main": "dist/emojicon.js",
+  "author": "Josephus Paye II",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c --compact"
+  },
+  "devDependencies": {
+    "rollup": "^1.31.0",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}

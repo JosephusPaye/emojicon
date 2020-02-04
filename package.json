@@ -9,9 +9,12 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
-    "vue": "^2.6.10"
+    "prismjs": "^1.19.0",
+    "vue": "^2.6.10",
+    "vue-prism-component": "^1.1.1"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
     "@vue/cli-plugin-babel": "^4.1.0",
     "@vue/cli-plugin-eslint": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
@@ -24,6 +27,7 @@
     "prettier": "^1.19.1",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
+    "tailwindcss": "^1.1.4",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
