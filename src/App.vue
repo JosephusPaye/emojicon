@@ -13,14 +13,6 @@
       <Prism language="javascript">{{ code }}</Prism>
     </div>
     <div class="mt-8">
-      <canvas
-        ref="canvas"
-        width="32"
-        height="32"
-        style="width: 64px; height: 64px; background-color: beige"
-      ></canvas>
-    </div>
-    <div class="mt-8">
       <button
         class="inline-block px-4 py-2 border border-yellow-500 bg-yellow-500 text-black mr-2 active:bg-yellow-700"
         @click="setRandomEmoji"
@@ -104,17 +96,11 @@ export default {
     emoji: {
       handler(emoji) {
         emojicon.set(emoji, {
-          canvas: this.canvas,
           color: this.getEmojiColor(),
         });
       },
       immediate: true,
     },
-  },
-
-  mounted() {
-    this.canvas = this.$refs.canvas;
-    emojicon.set(this.emoji, { canvas: this.canvas });
   },
 
   methods: {
