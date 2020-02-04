@@ -159,4 +159,31 @@ code[class*='language-'] {
     font-size: 1em;
   }
 }
+
+/*
+ * purgecss keeps removing (some!) prism styles, even when ignored 😡.
+ * So the following two blocks repeat the ones we actually use.
+ */
+.token.keyword,
+.token.property,
+.token.selector,
+.token.constant,
+.token.symbol,
+.token.builtin {
+  color: hsl(53, 89%, 79%);
+}
+
+.token.attr-name,
+.token.attr-value,
+.token.string,
+.token.char,
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable,
+.token.inserted {
+  color: hsl(76, 21%, 52%);
+}
 </style>
