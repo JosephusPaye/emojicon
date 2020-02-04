@@ -1,4 +1,4 @@
-# 🔥 Emojicon
+# Emojicon
 
 Emojicon is a small JS library that allows you to dynamically change a page's favicon to any emoji.
 

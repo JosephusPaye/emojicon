@@ -21,6 +21,7 @@
       </button>
       <a
         class="inline-block px-4 py-2 border border-yellow-500 text-yellow-500 mr-2"
+        href="https://github.com/JosephusPaye/emojicon#emojicon"
         >Documentation</a
       >
     </div>
